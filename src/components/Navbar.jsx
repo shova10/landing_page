@@ -1,4 +1,4 @@
-import logo from '../assets/Logo.png'
+import logo from "../assets/Logo.png"
 export default function Navbar() {
     return(
       <nav className="w-full bg-white py-4 px-6 md:px-20 flex justify-between items-center fixed top-0 z-50 shadow-sm">
