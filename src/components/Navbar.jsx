@@ -1,10 +1,10 @@
-import logo from "../assets/Logo.png"
+import logo from "../assets/Logo.png";
 export default function Navbar() {
     return(
       <nav className="w-full bg-white py-4 px-6 md:px-20 flex justify-between items-center fixed top-0 z-50 shadow-sm">
         <div className="flex justify-between items-center  gap-2">
             <div className="w-auto h-auto py-1 rounded-sm">
-              <img src={logo} alt="logo" className='w-8 h-6' />
+              <img src={logo} alt="Logo" className='w-8 h-6' />
             </div>
           <span className="text-2xl font-Inter font-bold text-[#4D4D4D]">Nexcent</span>
         </div>
