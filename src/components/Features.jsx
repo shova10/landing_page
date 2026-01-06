@@ -4,7 +4,7 @@ import { FaRegHandshake } from "react-icons/fa6";
 
 
 const Card = ({ title, description,  }) => (
-  <div className="px-8 py-10 text-center shadow-sm border border-gray-100 hover:border-green-500 transition-all cursor-pointer rounded-lg flex flex-col justify-between hover:scale-105 duration-300">
+  <div className="px-8 py-10 text-center shadow-sm border border-gray-100 transition-all cursor-pointer rounded-lg flex flex-col justify-between ">
     
     
     <div className="flex justify-center mb-6">
